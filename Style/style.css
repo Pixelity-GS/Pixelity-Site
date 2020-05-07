@@ -184,7 +184,7 @@ span{
 main {
     border: 1px solid red;
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,7 +193,7 @@ main {
 .feed{
     border: 1px solid black;
     width: 90%;
-    height: 99vh;
+    height: auto;
     display: flex;
     flex-direction: row;
 }
@@ -217,13 +217,15 @@ main {
 .story {
     width: 100%;
     height: 20vh;
-    border: 1px solid red;
-    margin: 1.5%;
+    margin: 1%;
     display: flex;
     transition: 0.5s ease;
     flex-direction: row;
     justify-content: space-around;
     overflow: hidden;
+    background-color: rgb(226, 226, 226);
+    padding-left: 0.4vw;
+    border-radius: 10px;
 }
 
 .story:hover {
@@ -233,18 +235,22 @@ main {
 
 .post-img{
     flex-grow: 1;
-    border: 1px solid;
     width: 8vw;
-    
+    background-color: inherit;   
+    margin-top: 2vh; 
+}
+
+i{
+    background-color: inherit;
 }
 
 
 .info {
     flex-grow: 2;
-    border: 1px solid green;
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+    background-color: inherit;
 }
 
 .summary {
@@ -252,17 +258,41 @@ main {
     flex-direction: column;
     justify-content: space-between;
     margin: 1%;
-    border: 1px solid;
+    border: 0px solid;
     width: 100%;
     overflow: hidden;
+    border-radius: 5px;
+    background-color: inherit;
 }
 
 .title {
     margin: 2%;
+    background-color: inherit;
 }
 
 .sum {
     margin: 2%;
+    background-color: inherit;
+}
+
+.mid-line {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: inherit;
+}
+
+.mid-line div{
+    background-color:black;
+    width: 0.1vw;
+    height: 17vh;
+    justify-content: center;
+    align-items: center;
+    transition: 0.26s ease-in-out;
+}
+
+.story:hover .mid-line div{
+    height: 25vh;
 }
 
 /*READ MORE BUTTON*/
