@@ -61,7 +61,7 @@
     background-color: inherit;
 }
 
-/*NAVBAR RESPONSIVENESS*/
+/*RESPONSIVENESS BURGER*/
 @media screen and (min-width: 768px){
     .list:hover, .list:hover div{
         background-color: rgb(41, 40, 40);
@@ -84,6 +84,7 @@
     transition: all 0.3s ease;
 }
 
+/*RESPONSIVE NAVBAR*/
 @media screen and (max-width:768px){
     body{
         overflow-x: hidden;
@@ -100,7 +101,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 15%;
+        width: 23%;
         transform: translate(100%);
         transition: transform 0.5s ease-in;
     }
@@ -119,6 +120,7 @@
         display: block;
         margin-left: auto;
     }
+    
 }
 
 .nav-active {
@@ -212,6 +214,9 @@ main {
     .left-pane{
         width: 100%;
     }
+    .fa-3x {
+        font-size: 2em !important;
+    }
 }
 /*FEED SUMMARY STORIES*/
 .story {
@@ -243,6 +248,7 @@ main {
 i{
     background-color: inherit;
 }
+
 
 
 .info {
