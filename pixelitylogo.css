@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+div#text{
+    text-align:center;
+    border:2px solid #e3f071;
+    width:300px;
+    margin-bottom: 40px;
+    border-radius:7px;
+    animation: border-flicker 2s linear infinite;
+  }
+
+h1 {
+  color:rgb(223, 235, 181);
+  font-family: 'Raleway', sans-serif;
+  font-size:30px;
+  letter-spacing:7px;
+  animation: text-flicker 3s linear infinite;
+  padding: 0;
+  margin: 0;
+  align-content: center;
+}
+
+#offset {
+  animation: letter-flicker 2s linear infinite;
+}
+
+@keyframes text-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  
+  2% {
+    opacity:1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  8% {
+    opacity:0.1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  9% {
+    opacity:1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  12% {
+    opacity:0.1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  20% {
+    opacity:1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  25% {
+    opacity:0.3;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  30% {
+    opacity:1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  
+  70% {
+    opacity:0.7;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  
+  72% {
+    opacity:0.2;
+    text-shadow:0px 0px 10px rgb(240, 241, 128);
+  }
+  
+  77% {
+    opacity:.9;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  100% {
+    opacity:.9;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+}
+
+@keyframes border-flicker {
+  0% {
+    opacity:0.1;
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+-moz-box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+  }
+  2% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+-moz-box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+  }
+  4% {
+    opacity:0.1;
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+-moz-box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+  }
+  
+  8% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+    box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+  }
+  70% {
+    opacity:0.7;
+    -webkit-box-shadow: 0px 0px 78px 4px rgba(232, 243, 132, 0.73);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+    box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+  }
+  100% {
+    opacity:1;
+    -webkit-box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+    -moz-box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+    box-shadow: 0px 0px 20px 4px rgba(232, 243, 132, 0.73);
+  }
+}
+
+@keyframes letter-flicker {
+  0% {
+    opacity:0.1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  2% {
+    opacity:0.1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  4% {
+    opacity:1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  
+  
+  19% {
+    opacity:1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  21% {
+    opacity:0.1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  23% {
+    opacity:1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  
+  80% {
+    opacity:1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  83% {
+    opacity:0.4;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+  87% {
+    opacity:1;
+    text-shadow: 0px 0px 10px rgb(240, 241, 128);
+  }
+}
