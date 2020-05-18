@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -351,4 +352,132 @@ i{
   height: 30vh;
   border:1px solid red;
   margin: 3%;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 30px;;
+  padding: 18px 0px 15px 0;
+  border-top: 4px solid rgba(238, 234, 18, 0.788);
+  width: 100%;
+  background-color: rgb(41, 40, 14);
+  z-index : 1;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.copyright {
+  width: 150%;
+  color: rgb(238, 234, 18);
+  padding: 0 16px 0 16px;
+  text-align: left;
+}
+
+.overlayContainer {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  overflow: hidden;
+
+
+  opacity: 0;
+  transform: opacity;
+  transition: .3s ease;
+}
+
+.foot-link {
+  width: 100%;
+  align-items: center;
+}
+
+.foot-links-container {
+  text-align: right;
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.nosotros {
+  background-color: rgb(39, 33, 33);
+  border:1px solid #f0a0a0;
+  color: #f0a0a0;
+  margin: 10px 0 20px 0;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.nosotros:hover {
+  box-shadow: 0 0 11px rgba(231, 56, 56, 0.527); 
+}
+
+.noticiasLatest {
+  background-color: rgb(34, 28, 39);
+  border:1px solid #d6a3ee;
+  color: #d6a3ee;
+  margin: 10px 0 20px 0;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.noticiasLatest:hover {
+  box-shadow: 0 0 11px rgba(177, 26, 214, 0.589); 
+}
+
+.marketLatest {
+  background-color: rgb(46, 45, 36);
+  border:1px solid #f8f7af;
+  color: #f8f7af;
+  margin: 10px 0 20px 0;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.marketLatest:hover {
+  box-shadow: 0 0 11px rgba(241, 208, 15, 0.562); 
+}
+
+.reviewsLatest {
+  background-color: rgb(30, 41, 43);
+  border:1px solid #a9eaec;
+  color: #a9eaec;
+  margin: 10px 0 20px 0;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.reviewsLatest:hover {
+  box-shadow: 0 0 11px rgba(42, 225, 231, 0.527); 
+}
+
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
 }
