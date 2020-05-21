@@ -28,8 +28,8 @@
 }
 
 .logo-img img{
-    width: 15%;
-    height: auto;
+    width: 100%;
+    height: 105%;
 } 
 
 /*For blinking logo view pixelitylogo.css*/
@@ -138,9 +138,13 @@
 
     .logo-img {
         overflow: visible;
-        width: 160%;
+        width: 100%;
         height: 10vh;
         align-self: center;
+    }
+
+    .logo-img img{
+        height: 230%;
     }
 
     .list {
@@ -152,7 +156,7 @@
         position: absolute;
         right: 0px;
         height: 100vh;
-        top: 23vh;
+        top: 23.1vh;
         background-color: rgb(32, 32, 32);
         display: flex;
         flex-direction: column;
@@ -179,6 +183,7 @@
     .burger{
         display: block;
         margin-left: auto;
+        background-color: rgba(0, 0, 0, 0);
     }
     
 }
