@@ -15,8 +15,6 @@
 }
 
 
-
-/*For blinking logo view pixelitylogo.css*/
 /*NAVBAR*/
  .navbar {
      overflow: hidden;
@@ -27,8 +25,15 @@
      align-items: center;
      position: fixed;
      top: 0;
-     box-shadow: 0 0 11px rgb(121, 112, 39);
 }
+
+/*Box Shadow effect on scroll*/
+html:not([data-scroll='0']) .navbar {
+    position: fixed;
+    top: 0;
+    box-shadow: 0 0 12px rgb(121, 112, 39);
+}
+
  .nav{
      width: 100%;
      height: 6vh;
@@ -311,15 +316,28 @@
      z-index : 1;
      display: flex;
      align-items: center;
-     text-align: left;
 }
  .copyright {
      width: 90%;
      color: rgb(238, 234, 18);
-     padding: 0 0 0 16px;
      text-align: left;
      background-color: rgb(41, 40, 14);
 }
+
+p.copyright-text {
+    padding-left: 16px;
+}
+
+p.createdBy {
+    margin-right: 300px;
+}
+
+@media (max-width: 768px) {
+    p.createdBy {
+        margin-right: 100px;
+    }
+}
+
 .copyright a{
     color: rgb(238, 234, 18);
     background-color: rgb(41, 40, 14);
@@ -334,7 +352,6 @@
      display: flex;
      width: 15%;
      padding-top: 0.2%;
-     margin-left: 2px;
 }
 
 .foot-link, .foot-link a, .foot-link img {
@@ -342,6 +359,9 @@
     border: none;
 }
 
+div.face {
+    margin-right: 16px;
+}
 
 /* SCROLL to TOP Button*/
 
