@@ -128,10 +128,11 @@ html:not([data-scroll='0']) .navbar {
          background-color: rgb(32, 32, 32);
          width:60%;
     }
+
      .nav{
          position: absolute;
          right: 0;
-         height: 60vh;
+         height: 95vh;
          top: 10%;
          background-color: #292916;
          display: flex;
@@ -145,7 +146,7 @@ html:not([data-scroll='0']) .navbar {
     }
  
      .nav a{
-         margin: 1.2rem 0;
+         margin: 1.1rem 0;
     }
      .burger{
          display: block;
