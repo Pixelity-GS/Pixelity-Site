@@ -17,7 +17,6 @@
 
 /*NAVBAR*/
  .navbar {
-     overflow: hidden;
      width: 100%;
      height: 8vh;
      display: flex;
@@ -87,7 +86,7 @@ html:not([data-scroll='0']) .navbar {
      background-color:#454512;
      border: 1px solid rgb(245, 241, 18);
 }
-/*RESPONSIVENESS BURGER*/
+/*RESPONSIVE BURGER*/
  @media screen and (min-width: 768px){
      .list:hover, .list:hover div{
          background-color: #121204;
@@ -96,6 +95,7 @@ html:not([data-scroll='0']) .navbar {
  .burger{
      display: none;
      cursor: pointer;
+     
 }
  .burger div{
      width: 35px;
@@ -131,38 +131,43 @@ html:not([data-scroll='0']) .navbar {
      .nav{
          position: absolute;
          right: 0;
-         height: 80vh;
+         height: 60vh;
          top: 10%;
          background-color: #292916;
          display: flex;
          flex-direction: column;
          align-items: center;
          width: 100%;
-         transform: translate(100%);S
-         transition: transform 0.5s ease-in;
+         transform: translate(100%);
+         transition: transform 0.6s ease-in;
          margin: 0;
          justify-content: unset;
     }
  
      .nav a{
-         margin: 1.5rem 0;
+         margin: 1.2rem 0;
     }
      .burger{
          display: block;
          margin-left: auto;
          background-color: #121204;
          position: absolute;
-         top: 5%;
-         left: 80%;
+         top: 10%;
+         left: 90%;
     }
+
+    div.burger.toggle {
+        background-color: #292916;
+    }
+
 }
  .nav-active {
      transform: translateX(0%);
 }
  @keyframes navLinkFade{
      from{
-         opacity: 0;
-         transform: translateX(50px);
+         opacity: 0; 
+         transform: translateX(300px);
     }
      to{
          opacity: 1;
@@ -178,6 +183,8 @@ html:not([data-scroll='0']) .navbar {
  .toggle .line3{
      transform: rotate(45deg) translate(-7px, -6px);
 }
+
+
 
 /*HEADER IMAGE*/
 .logo-img {
